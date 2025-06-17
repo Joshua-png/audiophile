@@ -36,7 +36,7 @@ A functional, multi-page e-commerce website for premium audio products.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MundiaNderi/audiophile.git
+   git clone [https://github.com/Joshua-png/audiophile.git]
    cd audiophile
    ```
 
