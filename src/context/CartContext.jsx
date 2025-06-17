@@ -10,7 +10,6 @@ export const CartContextProvider = ({ children }) => {
     return storedCart ? JSON.parse(storedCart) : createInitialCartState();
   };
 
-  // const [cart, dispatch] = useReducer(cartReducer, createInitialCartState());
   const [cart, dispatch] = useReducer(cartReducer, undefined, getInitialCartState);
 
   // Persist cart to localStorage whenever it changes
