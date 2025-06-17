@@ -4,7 +4,7 @@ A functional, multi-page e-commerce website for premium audio products.
 
 ## Live Demo
 
-[View deployed version](https://audiophile.vercel.app/)
+[View deployed version](https://audiophile-blue.vercel.app/)
 
 ## Features
 
