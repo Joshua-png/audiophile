@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import Homepage from "./components/pages/HomePage";
-import Footer from "./components/shared/Footer"
-import Navbar from "./components/navigation/Navbar"
-import ProductDetailsPage from "./components/pages/ProductDetailsPage"
-import CategoryPage from "./components/pages/CategoryPage"
-import CheckoutPage from "./components/pages/CheckoutPage"
+import Homepage from "./components/pages/Homepage.jsx";
+import Footer from "./components/shared/Footer.jsx"
+import Navbar from "./components/navigation/Navbar.jsx"
+import ProductDetailsPage from "./components/pages/ProductDetailsPage.jsx"
+import CategoryPage from "./components/pages/CategoryPage.jsx"
+import CheckoutPage from "./components/pages/CheckoutPage.jsx"
 
 const App = () => {
   const location = useLocation();
