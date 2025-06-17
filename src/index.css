@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+/* :root {
+    font-size: 16px;
+  } */
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.125rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+    letter-spacing: 0.094rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.072rem;
+  }
+  
+  h4 {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+    letter-spacing: 0.125rem;
+  }
+  
+  h5 {
+    font-size: 1.5rem;
+    line-height: 2.063rem;
+    letter-spacing: 0.106rem;
+  }
+  
+  h6 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.081rem;
+  }
+
+  :root {
+    /* ===== Screens ===== */
+    --screen-lg: 1440px;
+  
+    /* ===== Colors ===== */
+    --color-primary: #D87D4A;
+    --color-primary-light: #FBAF85;
+    --color-off-black: #101010;
+    --color-off-grey: #F1F1F1;
+    --color-off-white: #FAFAFA;
+    --color-error: #CD2C2C;
+  
+    /* ===== Spacing (All values in rem) ===== */
+    --spacing-7-5: 1.875rem;    /* 30px */
+    --spacing-9-5: 2.375rem;    /* 38px */
+    --spacing-13: 3.25rem;      /* 52px */
+    --spacing-14: 3.5rem;       /* 56px */
+    --spacing-15: 3.75rem;      /* 60px */
+    --spacing-17-5: 4.375rem;   /* 70px */
+    --spacing-18: 4.5rem;       /* 72px */
+    --spacing-22: 5.5rem;       /* 88px */
+    --spacing-22-5: 5.625rem;   /* 90px */
+    --spacing-24: 6rem;         /* 96px */
+    --spacing-25: 6.25rem;      /* 100px */
+    --spacing-25-5: 6.375rem;   /* 102px */
+    --spacing-27: 6.75rem;      /* 108px */
+    --spacing-28: 7rem;         /* 112px */
+    --spacing-30: 7.5rem;       /* 120px */
+    --spacing-31: 7.75rem;      /* 124px */
+    --spacing-32: 8rem;         /* 128px */
+    --spacing-33: 8.25rem;      /* 132px */
+    --spacing-34: 8.5rem;       /* 136px */
+    --spacing-35: 8.75rem;      /* 140px */
+    --spacing-40: 10rem;        /* 160px */
+    --spacing-42: 10.5rem;      /* 168px */
+    --spacing-43: 10.75rem;     /* 172px */
+    --spacing-50: 12.5rem;      /* 200px */
+    --spacing-56: 14rem;        /* 224px */
+    --spacing-60: 15rem;        /* 240px */
+    --spacing-61-5: 15.375rem;  /* 246px */
+    --spacing-70: 17.5rem;      /* 280px */
+    --spacing-87: 21.75rem;     /* 348px */
+    --spacing-95: 23.75rem;     /* 380px */
+    --spacing-111: 27.75rem;   /* 444px */
+    --spacing-135: 33.75rem;    /* 540px */
+    --spacing-143: 35.75rem;    /* 572px */
+    --spacing-158: 39.5rem;     /* 632px */
+    --spacing-182: 45.5rem;     /* 728px */
+    --spacing-196-5: 49.125rem; /* 786px */
+    --spacing-277-25: 69.313rem; /* 1109px */
+  
+    /* ===== Font Sizes ===== */
+    --font-size-12px: 12px;
+    --font-size-13px: 13px;
+    --font-size-14px: 14px;
+    --font-size-15px: 15px;
+    --font-size-7: 1.75rem;     /* 28px */
+    --font-size-8: 2rem;         /* 32px */
+    --font-size-10: 2.5rem;     /* 40px */
+    --font-size-14: 3.5rem;      /* 56px */
+  
+    /* ===== Letter Spacing ===== */
+    --letter-spacing-1px: 1px;
+    --letter-spacing-2px: 2px;
+    --letter-spacing-10px: 10px;
+  
+    /* ===== Line Heights ===== */
+    --line-height-19: 1.188rem;  /* 19px */
+    --line-height-14-5: 3.625rem; /* 58px */
+  }
+  
+  /* ===== Background Utilities ===== */
+  .bg-sm-home-hero {
+    background-image: url('/home/mobile/image-header.jpg');
+  }
+  .bg-md-home-hero {
+    background-image: url('/home/tablet/image-header.jpg');
+  }
+  .bg-lg-home-hero {
+    background-image: url('/home/desktop/image-hero.jpg');
+  }
+  .bg-sm-featured-product {
+    background-image: url('/home/desktop/pattern-circles.svg');
+  }
+  .bg-sm-primary-product {
+    background-image: url('/home/mobile/image-speaker-zx7.jpg');
+  }
+  .bg-md-primary-product {
+    background-image: url('/home/tablet/image-speaker-zx7.jpg');
+  }
+  .bg-lg-primary-product {
+    background-image: url('/home/desktop/image-speaker-zx7.jpg');
+  }
+  
+  /* ===== Background Position Utilities ===== */
+  .bg-pos-sm-featured-product {
+    background-position: 50% -120px;
+  }
+  .bg-pos-md-featured-product {
+    background-position: 50% -282px;
+  }
+  .bg-pos-lg-featured-product {
+    background-position: -165px -10px;
+  }
+  
+  /* ===== Background Size Utilities ===== */
+  .bg-size-sm-featured-product {
+    background-size: 170% auto;
+  }
+  
+  /* ===== Color Utilities ===== */
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-primary-light {
+    background-color: var(--color-primary-light);
+  }
+  .bg-off-black {
+    background-color: var(--color-off-black);
+  }
+  .bg-off-grey {
+    background-color: var(--color-off-grey);
+  }
+  .bg-off-white {
+    background-color: var(--color-off-white);
+  }
+  
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .text-primary-light {
+    color: var(--color-primary-light);
+  }
+  .text-off-black {
+    color: var(--color-off-black);
+  }
+  .text-off-grey {
+    color: var(--color-off-grey);
+  }
+  .text-off-white {
+    color: var(--color-off-white);
+  }
+  
+  /* ===== Spacing Utilities ===== */
+  .p-7-5 { padding: var(--spacing-7-5); }
+  .m-7-5 { margin: var(--spacing-7-5); }
+  .pt-7-5 { padding-top: var(--spacing-7-5); }
+  /* Continue for all spacing variants... */
+  
+  /* ===== Typography Utilities ===== */
+  .text-12px { font-size: var(--font-size-12px); }
+  .text-13px { font-size: var(--font-size-13px); }
+  .text-14px { font-size: var(--font-size-14px); }
+  .text-15px { font-size: var(--font-size-15px); }
+  .text-7 { font-size: var(--font-size-7); }
+  .text-8 { font-size: var(--font-size-8); }
+  .text-10 { font-size: var(--font-size-10); }
+  .text-14 { font-size: var(--font-size-14); }
+  
+  .tracking-1px { letter-spacing: var(--letter-spacing-1px); }
+  .tracking-2px { letter-spacing: var(--letter-spacing-2px); }
+  .tracking-10px { letter-spacing: var(--letter-spacing-10px); }
+  
+  .leading-19 { line-height: var(--line-height-19); }
+  .leading-14-5 { line-height: var(--line-height-14-5); }
+  
+  /* ===== Responsive Utilities ===== */
+  @media (min-width: 1440px) {
+    .lg\:bg-lg-home-hero {
+      background-image: url('/home/desktop/image-hero.jpg');
+    }
+    /* Add other lg: variants as needed */
+  }
