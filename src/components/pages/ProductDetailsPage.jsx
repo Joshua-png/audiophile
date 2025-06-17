@@ -3,8 +3,7 @@ import NavLinks from "../navigation/NavLinks";
 import MarketingCard from "../shared/MarketingCard";
 import ProductInformation from "../products/ProductInformation";
 import { useNavigate } from "react-router-dom";
-import { useParams } from 'react-router-dom'
-// import products from '../../data/data.json'
+import { useParams } from 'react-router-dom';
 import RecommendedProducts from "../products/RecommendedProducts.jsx";
 import { useProducts } from "../../context/ProductsContext.jsx";
 

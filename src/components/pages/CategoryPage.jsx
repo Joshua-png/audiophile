@@ -1,5 +1,4 @@
 import { useParams } from "react-router"
-// import products from "../../data/data.json"
 import ContentWrapper from "../shared/ContentWrapper"
 import MarketingCard from "../shared/MarketingCard"
 import NavLinks from "../navigation/NavLinks"
